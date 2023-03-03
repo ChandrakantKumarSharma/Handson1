@@ -2,7 +2,6 @@
     background-image: url(background.jpg);
     height: 500%;
     padding: 500px;
-    margin: 10;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -59,15 +58,22 @@
 }
 .lab{
     position: relative;
-    left: -55px;
+    top: 10px;
+    left: -60px;
 }
   
 .chandr1 {
     position: relative;
+    top: 20px;
     right: -30px;
+}
+.labb{
+    position: relative;
+    left: -33px;
 }
 .chandr{
     position: relative;
+    top: 20px;
     left: 35px;
 }
 .square{
@@ -120,13 +126,8 @@
 .parent{
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: space-around;
-    gap: 20px;
-    /* flex-direction: column; */
-    /* display: inline-block; */
 }
-.box{
-    
+.box{ 
     justify-content: space-around;
     background-color: white;
     border: 5px groove black;
